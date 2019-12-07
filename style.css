@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #558da5;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+table{
+    border: 2px solid #000439;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0px 0px 10px #171f84;
+}
+
+td, th{
+    border: 2px solid #000439;
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    user-select: none;
+}
+
+td{
+    background-color: #e3ecf4;
+    color: #797979;
+}
+
+th{
+    background-color: #0648b1;
+    color: #cecece;
+    
+}
+
+.main{
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    margin-top: 10px;
+    background-color: #313952;
+    color: white;
+    border: 2px solid #000439;
+    box-shadow: 0px 0px 10px #171f84;
+    padding: 5px 5px;
+}
+
+.board-title{
+    margin-bottom: 10px;
+    background-color: #313952;
+    color: white;
+    border: 2px solid #000439;
+    box-shadow: 0px 0px 10px #171f84;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.cell-player:hover, .ship-zone{
+    background-color: #000439;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
