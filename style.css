@@ -23,14 +23,14 @@ table{
 
 td, th{
     border: 2px solid #000439;
-    height: 40px;
-    width: 40px;
-    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    font-size: 12px;
     user-select: none;
 }
 
 td{
-    background-color: #e3ecf4;
+    background-color: #85add1;
     color: #797979;
 }
 
@@ -41,7 +41,7 @@ th{
 }
 
 .main{
-    max-width: 800px;
+    max-width: 900px;
     height: 100%;
     display: flex;
     margin: 0 auto;
@@ -70,8 +70,13 @@ th{
     padding: 5px 5px;
 }
 
-.cell-player:hover, .ship-zone{
-    background-color: #000439;
+.ship-zone{
+    background-color: #c4c4c4;
+    color: white;
+}
+
+.ship{
+    background-color: #ffffff;
     color: white;
 }
 
