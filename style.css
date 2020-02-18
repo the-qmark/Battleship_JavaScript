@@ -1,12 +1,14 @@
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
-html{
+
+html {
     height: 100%;
 }
-body{
+
+body {
     background-color: #558da5;
     height: 100%;
     padding: 0;
@@ -14,14 +16,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-table{
+table {
     border: 2px solid #000439;
     border-collapse: collapse;
     text-align: center;
     box-shadow: 0px 0px 10px #171f84;
 }
 
-td, th{
+td,
+th {
     border: 2px solid #000439;
     height: 35px;
     width: 35px;
@@ -29,18 +32,18 @@ td, th{
     user-select: none;
 }
 
-td{
+td {
     background-color: #85add1;
     color: #797979;
 }
 
-th{
+th {
     background-color: #0648b1;
     color: #cecece;
-    
+
 }
 
-.main{
+.main {
     max-width: 900px;
     height: 100%;
     display: flex;
@@ -49,7 +52,7 @@ th{
     align-items: center;
 }
 
-.info{
+.info {
     margin-top: 10px;
     background-color: #313952;
     color: white;
@@ -58,7 +61,7 @@ th{
     padding: 5px 5px;
 }
 
-.board-title{
+.board-title {
     margin-bottom: 10px;
     background-color: #313952;
     color: white;
@@ -70,22 +73,26 @@ th{
     padding: 5px 5px;
 }
 
-.ship-zone{
-    background-color: #c4c4c4;
+.ship-zone {
+    background-color: #414141;
     color: white;
 }
 
-.ship{
+.ship {
     background-color: #ffffff;
-    color: white;
+    color: #717171;
 }
 
+.dead-zone {
+    background-color: #c4c4c4;
+    color: #605e5e;
+}
 
+.dead-zone-fix {
+    background-color: #4a4a4a;
+    color: #605e5e;
+}
 
-
-
-
-
-
-
-
+.enemy-ship{
+    background-color: #ff0000;
+}
